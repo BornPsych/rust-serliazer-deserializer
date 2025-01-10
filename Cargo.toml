@@ -1,0 +1,22 @@
+[package]
+name = "serde-example"
+version = "0.1.0"
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+categories = ["encoding"]
+description = "An example Serializer and Deserializer data format for Serde"
+documentation = "https://serde.rs/data-format.html"
+edition = "2021"
+keywords = ["serde"]
+license = "MIT OR Apache-2.0"
+publish = false
+repository = "https://github.com/serde-rs/example-format"
+rust-version = "1.56"
+
+[dependencies]
+serde = "1.0"
+
+[lib]
+doc-scrape-examples = false
+
+[dev-dependencies]
+serde_derive = "1.0"
